@@ -1,5 +1,5 @@
 CMakeFiles/watertool.dir/main.cpp.o: \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/main.cpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/main.cpp \
  /usr/include/stdc-predef.h /usr/include/qt6/QtWidgets/QtWidgets \
  /usr/include/qt6/QtWidgets/QtWidgetsDepends \
  /usr/include/qt6/QtCore/QtCore /usr/include/qt6/QtCore/QtCoreDepends \
@@ -927,14 +927,14 @@ CMakeFiles/watertool.dir/main.cpp.o: \
  /usr/include/qt6/QtWidgets/qwidget.h \
  /usr/include/qt6/QtWidgets/qwidgetaction.h \
  /usr/include/qt6/QtWidgets/qwizard.h \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/window.hpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/window.hpp \
  /usr/include/qt6/QtWidgets/QMainWindow \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/model.hpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/model.hpp \
  /usr/include/qt6/QtCore/QAbstractTableModel \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/dataset.hpp \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/water.hpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/dataset.hpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/water.hpp \
  /usr/include/c++/11/iostream \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/fchart.hpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/fchart.hpp \
  /usr/include/qt6/QtCharts/QLineSeries \
  /usr/include/qt6/QtCharts/qlineseries.h \
  /usr/include/qt6/QtCharts/QChartGlobal \
@@ -960,7 +960,9 @@ CMakeFiles/watertool.dir/main.cpp.o: \
  /usr/include/qt6/QtCharts/qlogvalueaxis.h \
  /usr/include/qt6/QtCharts/QValueAxis \
  /usr/include/qt6/QtCharts/qvalueaxis.h /usr/include/qt6/QtWidgets/QFrame \
- /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCharts/QtCharts \
+ /usr/include/qt6/QtCore/QString \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/pchart.hpp \
+ /usr/include/qt6/QtCharts/QtCharts \
  /usr/include/qt6/QtCharts/QtChartsDepends \
  /usr/include/qt6/QtWidgets/QtWidgets /usr/include/qt6/QtOpenGL/QtOpenGL \
  /usr/include/qt6/QtOpenGL/QtOpenGLDepends \
@@ -1057,7 +1059,7 @@ CMakeFiles/watertool.dir/main.cpp.o: \
  /usr/include/qt6/QtCharts/qvpiemodelmapper.h \
  /usr/include/qt6/QtCharts/qvxymodelmapper.h \
  /usr/include/qt6/QtCharts/qxylegendmarker.h \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/overviewPage.hpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/overviewPage.hpp \
  /usr/include/qt6/QtWidgets/QWidget \
  /usr/include/qt6/QtWidgets/QPushButton \
  /usr/include/qt6/QtWidgets/QLineEdit \

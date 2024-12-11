@@ -17,6 +17,7 @@ qt_add_executable(watertool
     window.cpp
     stats.cpp
     fchart.cpp
+    pchart.cpp
     overviewPage.cpp
 )
 

@@ -77,7 +77,7 @@ void WaterWindow::createOverview()
   setCentralWidget(singoltenOverviewPage);
 }
 
-void WaterWindow::createPOPs()
+/*void WaterWindow::createPOPs()
 {
   setCentralWidget(0);
 
@@ -102,6 +102,62 @@ void WaterWindow::createPOPs()
   pops->setLayout(popsLayout);
   //pops->addWidget(popsChart);
   setCentralWidget(pops);
+}*/
+
+void WaterWindow::createPOPs()
+{
+  setCentralWidget(0);
+  //  Create a container widget for this page
+  QWidget *popWidget = new QWidget();
+  QVBoxLayout *layout = new QVBoxLayout();
+
+  QLabel *pfaLabel = new QLabel("label");
+  QLabel *locationLabel = new QLabel("location");
+  QFrame *complianceBar = new QFrame();
+
+  complianceBar->setFrameShape(QFrame::HLine);
+  complianceBar->setFixedHeight(10);
+
+  layout->addWidget(pfaLabel);
+  layout->addWidget(locationLabel);
+  layout->addWidget(complianceBar);
+
+  POPChart *pchart = new POPChart();
+  if (model.hasData())
+  {
+    pchart->loadDataset(model.getData());
+  }
+
+  // Create file selectors specific to this window
+
+  updateFileSelector(pollutant, pchart->getDeterminands());
+  updateFileSelector(location, pchart->getLocations(pollutant->currentText().toStdString()));
+
+  std::cout << "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" << std::endl;
+
+
+  // Create a chart and chart view
+  pchart->loadDataset(model.getData());
+  QChart *chart = new QChart();
+  pchart->initChart(chart);
+  std::cout << "chart created" << std::endl;
+  QChartView *chartView = new QChartView(chart);
+  layout->addWidget(chartView);
+
+  // Connect selectors to a slot for updating the chart
+  connect(pollutant, &QComboBox::currentTextChanged, this, [=]()
+          { pchart->updateChart(chart, pollutant->currentText().toStdString());
+            updateFileSelector(location, pchart->getLocations(pollutant->currentText().toStdString()));
+            pchart->updateCompliance(pfaLabel, locationLabel, complianceBar, pollutant->currentText().toStdString(), 
+                              location->currentText().toStdString()); });
+  connect(location, &QComboBox::currentTextChanged, this, [=]()
+          { pchart->updateCompliance(pfaLabel, locationLabel, complianceBar, pollutant->currentText().toStdString(),
+                                     location->currentText().toStdString()); });
+  chartView->setChart(chart);
+  // Set the layout and widget as the central widget
+  popWidget->setLayout(layout);
+  setCentralWidget(popWidget);
+  
 }
 
 void WaterWindow::createLitter()
@@ -307,6 +363,7 @@ void WaterWindow::createFileSelectors()
 
 void WaterWindow::updateFileSelector(QComboBox *selector, QStringList options)
 {
+  //std::cout << "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" << std::endl;
   selector->clear();
   selector->addItems(options);
 }

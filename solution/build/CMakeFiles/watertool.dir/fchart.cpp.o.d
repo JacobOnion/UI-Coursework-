@@ -1,7 +1,7 @@
 CMakeFiles/watertool.dir/fchart.cpp.o: \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/fchart.cpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/fchart.cpp \
  /usr/include/stdc-predef.h \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/fchart.hpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/fchart.hpp \
  /usr/include/qt6/QtCharts/QLineSeries \
  /usr/include/qt6/QtCharts/qlineseries.h \
  /usr/include/qt6/QtCharts/QChartGlobal \
@@ -955,6 +955,6 @@ CMakeFiles/watertool.dir/fchart.cpp.o: \
  /usr/include/qt6/QtCharts/qlogvalueaxis.h \
  /usr/include/qt6/QtCharts/QValueAxis \
  /usr/include/qt6/QtCharts/qvalueaxis.h /usr/include/qt6/QtWidgets/QFrame \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/dataset.hpp \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/water.hpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/dataset.hpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/water.hpp \
  /usr/include/c++/11/iostream /usr/include/qt6/QtCore/QString

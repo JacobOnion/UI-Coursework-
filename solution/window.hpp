@@ -6,6 +6,7 @@
 #include "model.hpp"
 #include "water.hpp"
 #include "fchart.hpp"
+#include "pchart.hpp"
 #include <QtCharts>
 #include <QtWidgets>
 #include <QLineSeries>

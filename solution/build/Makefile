@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution
+CMAKE_SOURCE_DIR = "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build
+CMAKE_BINARY_DIR = "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -262,6 +262,30 @@ overviewPage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool.dir/build.make CMakeFiles/watertool.dir/overviewPage.cpp.s
 .PHONY : overviewPage.cpp.s
 
+pchart.o: pchart.cpp.o
+.PHONY : pchart.o
+
+# target to build an object file
+pchart.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool.dir/build.make CMakeFiles/watertool.dir/pchart.cpp.o
+.PHONY : pchart.cpp.o
+
+pchart.i: pchart.cpp.i
+.PHONY : pchart.i
+
+# target to preprocess a source file
+pchart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool.dir/build.make CMakeFiles/watertool.dir/pchart.cpp.i
+.PHONY : pchart.cpp.i
+
+pchart.s: pchart.cpp.s
+.PHONY : pchart.s
+
+# target to generate assembly for a file
+pchart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool.dir/build.make CMakeFiles/watertool.dir/pchart.cpp.s
+.PHONY : pchart.cpp.s
+
 stats.o: stats.cpp.o
 .PHONY : stats.o
 
@@ -383,6 +407,9 @@ help:
 	@echo "... overviewPage.o"
 	@echo "... overviewPage.i"
 	@echo "... overviewPage.s"
+	@echo "... pchart.o"
+	@echo "... pchart.i"
+	@echo "... pchart.s"
 	@echo "... stats.o"
 	@echo "... stats.i"
 	@echo "... stats.s"

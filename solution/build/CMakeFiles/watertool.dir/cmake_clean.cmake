@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/watertool.dir/model.cpp.o.d"
   "CMakeFiles/watertool.dir/overviewPage.cpp.o"
   "CMakeFiles/watertool.dir/overviewPage.cpp.o.d"
+  "CMakeFiles/watertool.dir/pchart.cpp.o"
+  "CMakeFiles/watertool.dir/pchart.cpp.o.d"
   "CMakeFiles/watertool.dir/stats.cpp.o"
   "CMakeFiles/watertool.dir/stats.cpp.o.d"
   "CMakeFiles/watertool.dir/water.cpp.o"

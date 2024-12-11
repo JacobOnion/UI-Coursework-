@@ -1,11 +1,12 @@
-/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/watertool_autogen/EWIEGA46WW/moc_overviewPage.cpp: /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/overviewPage.hpp \
-  /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/watertool_autogen/moc_predefs.h \
-  /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/dataset.hpp \
-  /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/fchart.hpp \
-  /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/model.hpp \
-  /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/overviewPage.hpp \
-  /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/water.hpp \
-  /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/window.hpp \
+/uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/watertool_autogen/EWIEGA46WW/moc_overviewPage.cpp: /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/overviewPage.hpp \
+  /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/watertool_autogen/moc_predefs.h \
+  /uolstore/home/student_lnxhome01/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/dataset.hpp \
+  /uolstore/home/student_lnxhome01/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/fchart.hpp \
+  /uolstore/home/student_lnxhome01/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/model.hpp \
+  /uolstore/home/student_lnxhome01/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/overviewPage.hpp \
+  /uolstore/home/student_lnxhome01/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/pchart.hpp \
+  /uolstore/home/student_lnxhome01/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/water.hpp \
+  /uolstore/home/student_lnxhome01/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/window.hpp \
   /usr/include/GL/gl.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution
+CMAKE_SOURCE_DIR = "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build
+CMAKE_BINARY_DIR = "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/watertool.dir/depend.make
@@ -72,128 +72,142 @@ include CMakeFiles/watertool.dir/flags.make
 CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o: CMakeFiles/watertool.dir/flags.make
 CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o: watertool_autogen/mocs_compilation.cpp
 CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o: CMakeFiles/watertool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o -MF CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o -c /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/watertool_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o -MF CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o -c "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/watertool_autogen/mocs_compilation.cpp"
 
 CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/watertool_autogen/mocs_compilation.cpp > CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/watertool_autogen/mocs_compilation.cpp" > CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/watertool_autogen/mocs_compilation.cpp -o CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/watertool_autogen/mocs_compilation.cpp" -o CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/watertool.dir/main.cpp.o: CMakeFiles/watertool.dir/flags.make
-CMakeFiles/watertool.dir/main.cpp.o: /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/main.cpp
+CMakeFiles/watertool.dir/main.cpp.o: /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/main.cpp
 CMakeFiles/watertool.dir/main.cpp.o: CMakeFiles/watertool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/watertool.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/main.cpp.o -MF CMakeFiles/watertool.dir/main.cpp.o.d -o CMakeFiles/watertool.dir/main.cpp.o -c /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/watertool.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/main.cpp.o -MF CMakeFiles/watertool.dir/main.cpp.o.d -o CMakeFiles/watertool.dir/main.cpp.o -c "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/main.cpp"
 
 CMakeFiles/watertool.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/watertool.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/main.cpp > CMakeFiles/watertool.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/main.cpp" > CMakeFiles/watertool.dir/main.cpp.i
 
 CMakeFiles/watertool.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/watertool.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/main.cpp -o CMakeFiles/watertool.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/main.cpp" -o CMakeFiles/watertool.dir/main.cpp.s
 
 CMakeFiles/watertool.dir/water.cpp.o: CMakeFiles/watertool.dir/flags.make
-CMakeFiles/watertool.dir/water.cpp.o: /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/water.cpp
+CMakeFiles/watertool.dir/water.cpp.o: /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/water.cpp
 CMakeFiles/watertool.dir/water.cpp.o: CMakeFiles/watertool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/watertool.dir/water.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/water.cpp.o -MF CMakeFiles/watertool.dir/water.cpp.o.d -o CMakeFiles/watertool.dir/water.cpp.o -c /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/water.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/watertool.dir/water.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/water.cpp.o -MF CMakeFiles/watertool.dir/water.cpp.o.d -o CMakeFiles/watertool.dir/water.cpp.o -c "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/water.cpp"
 
 CMakeFiles/watertool.dir/water.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/watertool.dir/water.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/water.cpp > CMakeFiles/watertool.dir/water.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/water.cpp" > CMakeFiles/watertool.dir/water.cpp.i
 
 CMakeFiles/watertool.dir/water.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/watertool.dir/water.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/water.cpp -o CMakeFiles/watertool.dir/water.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/water.cpp" -o CMakeFiles/watertool.dir/water.cpp.s
 
 CMakeFiles/watertool.dir/dataset.cpp.o: CMakeFiles/watertool.dir/flags.make
-CMakeFiles/watertool.dir/dataset.cpp.o: /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/dataset.cpp
+CMakeFiles/watertool.dir/dataset.cpp.o: /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/dataset.cpp
 CMakeFiles/watertool.dir/dataset.cpp.o: CMakeFiles/watertool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/watertool.dir/dataset.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/dataset.cpp.o -MF CMakeFiles/watertool.dir/dataset.cpp.o.d -o CMakeFiles/watertool.dir/dataset.cpp.o -c /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/dataset.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/watertool.dir/dataset.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/dataset.cpp.o -MF CMakeFiles/watertool.dir/dataset.cpp.o.d -o CMakeFiles/watertool.dir/dataset.cpp.o -c "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/dataset.cpp"
 
 CMakeFiles/watertool.dir/dataset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/watertool.dir/dataset.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/dataset.cpp > CMakeFiles/watertool.dir/dataset.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/dataset.cpp" > CMakeFiles/watertool.dir/dataset.cpp.i
 
 CMakeFiles/watertool.dir/dataset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/watertool.dir/dataset.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/dataset.cpp -o CMakeFiles/watertool.dir/dataset.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/dataset.cpp" -o CMakeFiles/watertool.dir/dataset.cpp.s
 
 CMakeFiles/watertool.dir/model.cpp.o: CMakeFiles/watertool.dir/flags.make
-CMakeFiles/watertool.dir/model.cpp.o: /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/model.cpp
+CMakeFiles/watertool.dir/model.cpp.o: /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/model.cpp
 CMakeFiles/watertool.dir/model.cpp.o: CMakeFiles/watertool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/watertool.dir/model.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/model.cpp.o -MF CMakeFiles/watertool.dir/model.cpp.o.d -o CMakeFiles/watertool.dir/model.cpp.o -c /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/watertool.dir/model.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/model.cpp.o -MF CMakeFiles/watertool.dir/model.cpp.o.d -o CMakeFiles/watertool.dir/model.cpp.o -c "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/model.cpp"
 
 CMakeFiles/watertool.dir/model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/watertool.dir/model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/model.cpp > CMakeFiles/watertool.dir/model.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/model.cpp" > CMakeFiles/watertool.dir/model.cpp.i
 
 CMakeFiles/watertool.dir/model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/watertool.dir/model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/model.cpp -o CMakeFiles/watertool.dir/model.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/model.cpp" -o CMakeFiles/watertool.dir/model.cpp.s
 
 CMakeFiles/watertool.dir/window.cpp.o: CMakeFiles/watertool.dir/flags.make
-CMakeFiles/watertool.dir/window.cpp.o: /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/window.cpp
+CMakeFiles/watertool.dir/window.cpp.o: /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/window.cpp
 CMakeFiles/watertool.dir/window.cpp.o: CMakeFiles/watertool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/watertool.dir/window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/window.cpp.o -MF CMakeFiles/watertool.dir/window.cpp.o.d -o CMakeFiles/watertool.dir/window.cpp.o -c /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/watertool.dir/window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/window.cpp.o -MF CMakeFiles/watertool.dir/window.cpp.o.d -o CMakeFiles/watertool.dir/window.cpp.o -c "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/window.cpp"
 
 CMakeFiles/watertool.dir/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/watertool.dir/window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/window.cpp > CMakeFiles/watertool.dir/window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/window.cpp" > CMakeFiles/watertool.dir/window.cpp.i
 
 CMakeFiles/watertool.dir/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/watertool.dir/window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/window.cpp -o CMakeFiles/watertool.dir/window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/window.cpp" -o CMakeFiles/watertool.dir/window.cpp.s
 
 CMakeFiles/watertool.dir/stats.cpp.o: CMakeFiles/watertool.dir/flags.make
-CMakeFiles/watertool.dir/stats.cpp.o: /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/stats.cpp
+CMakeFiles/watertool.dir/stats.cpp.o: /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/stats.cpp
 CMakeFiles/watertool.dir/stats.cpp.o: CMakeFiles/watertool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/watertool.dir/stats.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/stats.cpp.o -MF CMakeFiles/watertool.dir/stats.cpp.o.d -o CMakeFiles/watertool.dir/stats.cpp.o -c /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/stats.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/watertool.dir/stats.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/stats.cpp.o -MF CMakeFiles/watertool.dir/stats.cpp.o.d -o CMakeFiles/watertool.dir/stats.cpp.o -c "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/stats.cpp"
 
 CMakeFiles/watertool.dir/stats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/watertool.dir/stats.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/stats.cpp > CMakeFiles/watertool.dir/stats.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/stats.cpp" > CMakeFiles/watertool.dir/stats.cpp.i
 
 CMakeFiles/watertool.dir/stats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/watertool.dir/stats.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/stats.cpp -o CMakeFiles/watertool.dir/stats.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/stats.cpp" -o CMakeFiles/watertool.dir/stats.cpp.s
 
 CMakeFiles/watertool.dir/fchart.cpp.o: CMakeFiles/watertool.dir/flags.make
-CMakeFiles/watertool.dir/fchart.cpp.o: /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/fchart.cpp
+CMakeFiles/watertool.dir/fchart.cpp.o: /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/fchart.cpp
 CMakeFiles/watertool.dir/fchart.cpp.o: CMakeFiles/watertool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/watertool.dir/fchart.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/fchart.cpp.o -MF CMakeFiles/watertool.dir/fchart.cpp.o.d -o CMakeFiles/watertool.dir/fchart.cpp.o -c /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/fchart.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/watertool.dir/fchart.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/fchart.cpp.o -MF CMakeFiles/watertool.dir/fchart.cpp.o.d -o CMakeFiles/watertool.dir/fchart.cpp.o -c "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/fchart.cpp"
 
 CMakeFiles/watertool.dir/fchart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/watertool.dir/fchart.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/fchart.cpp > CMakeFiles/watertool.dir/fchart.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/fchart.cpp" > CMakeFiles/watertool.dir/fchart.cpp.i
 
 CMakeFiles/watertool.dir/fchart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/watertool.dir/fchart.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/fchart.cpp -o CMakeFiles/watertool.dir/fchart.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/fchart.cpp" -o CMakeFiles/watertool.dir/fchart.cpp.s
+
+CMakeFiles/watertool.dir/pchart.cpp.o: CMakeFiles/watertool.dir/flags.make
+CMakeFiles/watertool.dir/pchart.cpp.o: /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/pchart.cpp
+CMakeFiles/watertool.dir/pchart.cpp.o: CMakeFiles/watertool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/watertool.dir/pchart.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/pchart.cpp.o -MF CMakeFiles/watertool.dir/pchart.cpp.o.d -o CMakeFiles/watertool.dir/pchart.cpp.o -c "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/pchart.cpp"
+
+CMakeFiles/watertool.dir/pchart.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/watertool.dir/pchart.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/pchart.cpp" > CMakeFiles/watertool.dir/pchart.cpp.i
+
+CMakeFiles/watertool.dir/pchart.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/watertool.dir/pchart.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/pchart.cpp" -o CMakeFiles/watertool.dir/pchart.cpp.s
 
 CMakeFiles/watertool.dir/overviewPage.cpp.o: CMakeFiles/watertool.dir/flags.make
-CMakeFiles/watertool.dir/overviewPage.cpp.o: /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/overviewPage.cpp
+CMakeFiles/watertool.dir/overviewPage.cpp.o: /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/overviewPage.cpp
 CMakeFiles/watertool.dir/overviewPage.cpp.o: CMakeFiles/watertool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/watertool.dir/overviewPage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/overviewPage.cpp.o -MF CMakeFiles/watertool.dir/overviewPage.cpp.o.d -o CMakeFiles/watertool.dir/overviewPage.cpp.o -c /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/overviewPage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/watertool.dir/overviewPage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/watertool.dir/overviewPage.cpp.o -MF CMakeFiles/watertool.dir/overviewPage.cpp.o.d -o CMakeFiles/watertool.dir/overviewPage.cpp.o -c "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/overviewPage.cpp"
 
 CMakeFiles/watertool.dir/overviewPage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/watertool.dir/overviewPage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/overviewPage.cpp > CMakeFiles/watertool.dir/overviewPage.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/overviewPage.cpp" > CMakeFiles/watertool.dir/overviewPage.cpp.i
 
 CMakeFiles/watertool.dir/overviewPage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/watertool.dir/overviewPage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/overviewPage.cpp -o CMakeFiles/watertool.dir/overviewPage.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/overviewPage.cpp" -o CMakeFiles/watertool.dir/overviewPage.cpp.s
 
 # Object files for target watertool
 watertool_OBJECTS = \
@@ -205,6 +219,7 @@ watertool_OBJECTS = \
 "CMakeFiles/watertool.dir/window.cpp.o" \
 "CMakeFiles/watertool.dir/stats.cpp.o" \
 "CMakeFiles/watertool.dir/fchart.cpp.o" \
+"CMakeFiles/watertool.dir/pchart.cpp.o" \
 "CMakeFiles/watertool.dir/overviewPage.cpp.o"
 
 # External object files for target watertool
@@ -218,6 +233,7 @@ watertool: CMakeFiles/watertool.dir/model.cpp.o
 watertool: CMakeFiles/watertool.dir/window.cpp.o
 watertool: CMakeFiles/watertool.dir/stats.cpp.o
 watertool: CMakeFiles/watertool.dir/fchart.cpp.o
+watertool: CMakeFiles/watertool.dir/pchart.cpp.o
 watertool: CMakeFiles/watertool.dir/overviewPage.cpp.o
 watertool: CMakeFiles/watertool.dir/build.make
 watertool: /usr/lib64/libQt6Charts.so.6.6.2
@@ -229,7 +245,7 @@ watertool: /usr/lib64/libQt6Core.so.6.6.2
 watertool: /usr/lib64/libGLX.so
 watertool: /usr/lib64/libOpenGL.so
 watertool: CMakeFiles/watertool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable watertool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable watertool"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/watertool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -241,6 +257,6 @@ CMakeFiles/watertool.dir/clean:
 .PHONY : CMakeFiles/watertool.dir/clean
 
 CMakeFiles/watertool.dir/depend:
-	cd /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles/watertool.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution" "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution" "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build" "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build" "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles/watertool.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/watertool.dir/depend
 

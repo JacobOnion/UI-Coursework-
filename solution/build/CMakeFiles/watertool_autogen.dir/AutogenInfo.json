@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/watertool_autogen",
-	"CMAKE_BINARY_DIR" : "/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution",
+	"BUILD_DIR" : "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/watertool_autogen",
+	"CMAKE_BINARY_DIR" : "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/CMakeLists.txt",
-		"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles/3.26.5/CMakeSystem.cmake",
+		"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/CMakeLists.txt",
+		"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles/3.26.5/CMakeSystem.cmake",
 		"/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
-		"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles/3.26.5/CMakeCXXCompiler.cmake",
+		"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles/3.26.5/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -372,57 +372,63 @@
 		"/usr/lib64/cmake/Qt6Charts/Qt6ChartsVersionlessTargets.cmake",
 		"/usr/share/cmake/Modules/GNUInstallDirs.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution",
+	"CMAKE_SOURCE_DIR" : "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/dataset.hpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/dataset.hpp",
 			"MU",
 			"EWIEGA46WW/moc_dataset.cpp",
 			null
 		],
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/fchart.hpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/fchart.hpp",
 			"MU",
 			"EWIEGA46WW/moc_fchart.cpp",
 			null
 		],
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/model.hpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/model.hpp",
 			"MU",
 			"EWIEGA46WW/moc_model.cpp",
 			null
 		],
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/overviewPage.hpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/overviewPage.hpp",
 			"MU",
 			"EWIEGA46WW/moc_overviewPage.cpp",
 			null
 		],
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/stats.hpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/pchart.hpp",
+			"MU",
+			"EWIEGA46WW/moc_pchart.cpp",
+			null
+		],
+		[
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/stats.hpp",
 			"MU",
 			"EWIEGA46WW/moc_stats.cpp",
 			null
 		],
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/water.hpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/water.hpp",
 			"MU",
 			"EWIEGA46WW/moc_water.cpp",
 			null
 		],
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/window.hpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/window.hpp",
 			"MU",
 			"EWIEGA46WW/moc_window.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/watertool_autogen/include",
-	"MOC_COMPILATION_FILE" : "/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/watertool_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/watertool_autogen/include",
+	"MOC_COMPILATION_FILE" : "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/watertool_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CHARTS_LIB",
@@ -475,56 +481,61 @@
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/watertool_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/watertool_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 12,
-	"PARSE_CACHE_FILE" : "/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles/watertool_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles/watertool_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib64/qt6/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib64/qt6/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 6,
-	"SETTINGS_FILE" : "/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles/watertool_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles/watertool_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/dataset.cpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/dataset.cpp",
 			"MU",
 			null
 		],
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/fchart.cpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/fchart.cpp",
 			"MU",
 			null
 		],
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/main.cpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/model.cpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/model.cpp",
 			"MU",
 			null
 		],
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/overviewPage.cpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/overviewPage.cpp",
 			"MU",
 			null
 		],
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/stats.cpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/pchart.cpp",
 			"MU",
 			null
 		],
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/water.cpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/stats.cpp",
 			"MU",
 			null
 		],
 		[
-			"/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/window.cpp",
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/water.cpp",
+			"MU",
+			null
+		],
+		[
+			"/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/window.cpp",
 			"MU",
 			null
 		]

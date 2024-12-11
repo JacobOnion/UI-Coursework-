@@ -1,7 +1,7 @@
 CMakeFiles/watertool.dir/model.cpp.o: \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/model.cpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/model.cpp \
  /usr/include/stdc-predef.h \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/model.hpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/model.hpp \
  /usr/include/qt6/QtCore/QAbstractTableModel \
  /usr/include/qt6/QtCore/qabstractitemmodel.h \
  /usr/include/qt6/QtCore/qhash.h /usr/include/qt6/QtCore/qalgorithms.h \
@@ -274,8 +274,8 @@ CMakeFiles/watertool.dir/model.cpp.o: \
  /usr/include/qt6/QtCore/qshareddata_impl.h \
  /usr/include/qt6/QtCore/qset.h /usr/include/qt6/QtCore/qvarlengtharray.h \
  /usr/include/qt6/QtCore/q23utility.h \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/dataset.hpp \
- /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/water.hpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/dataset.hpp \
+ /uolstore/home/users/sc23j2o/UI/CW\ versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/water.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/basic_ios.h \
  /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \

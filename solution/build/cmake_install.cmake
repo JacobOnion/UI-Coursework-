@@ -1,4 +1,4 @@
-# Install script for directory: /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution
+# Install script for directory: /uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

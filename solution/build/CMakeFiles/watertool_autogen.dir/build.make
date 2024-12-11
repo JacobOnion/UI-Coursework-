@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution
+CMAKE_SOURCE_DIR = "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build
+CMAKE_BINARY_DIR = "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build"
 
 # Utility rule file for watertool_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/watertool_autogen.dir/compiler_depend.make
 include CMakeFiles/watertool_autogen.dir/progress.make
 
 CMakeFiles/watertool_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target watertool"
-	/usr/bin/cmake -E cmake_autogen /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles/watertool_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target watertool"
+	/usr/bin/cmake -E cmake_autogen "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles/watertool_autogen.dir/AutogenInfo.json" ""
 
 watertool_autogen: CMakeFiles/watertool_autogen
 watertool_autogen: CMakeFiles/watertool_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/watertool_autogen.dir/clean:
 .PHONY : CMakeFiles/watertool_autogen.dir/clean
 
 CMakeFiles/watertool_autogen.dir/depend:
-	cd /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build /uolstore/home/student_lnxhome01/sc23bh2/solution-fred/solution/build/CMakeFiles/watertool_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution" "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution" "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build" "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build" "/uolstore/home/users/sc23j2o/UI/CW versions/V3/UI-Coursework--main(1)/UI-Coursework--main/solution/build/CMakeFiles/watertool_autogen.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/watertool_autogen.dir/depend
 
