@@ -42,6 +42,7 @@ private:
   void addHelpMenu();
   void addPOPMenu();
   void updateFileSelector(QComboBox *selector, QStringList options);
+  void formatChart(QChart *chart);
 
   QWidget* singoltenOverviewPage = nullptr;
 
@@ -50,7 +51,6 @@ private:
   QComboBox *pollutant;     // selector for quake feed significance level
   QComboBox *location;      // selector for quake feed time period
   QPushButton *loadButton;  // button to load a new CSV file
-  QPushButton *statsButton; // button to display dataset stats
   QPushButton *dashboardButton;
   QPushButton *overviewButton;
   QPushButton *popsButton;

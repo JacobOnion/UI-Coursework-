@@ -140,8 +140,10 @@ void WaterWindow::createPOPs()
   pchart->loadDataset(model.getData());
   QChart *chart = new QChart();
   pchart->initChart(chart);
+  formatChart(chart);
   std::cout << "chart created" << std::endl;
   QChartView *chartView = new QChartView(chart);
+  chartView->setObjectName("graph");
   layout->addWidget(chartView);
 
   // Connect selectors to a slot for updating the chart
@@ -200,6 +202,7 @@ void WaterWindow::createLitter()
   litterSeries->append(set3);
 
   QChart *litterChart = new QChart;
+  formatChart(litterChart);
   litterChart->addSeries(litterSeries);
   litterChart->setTitle("Average presence of litters in various locations");
   litterChart->setAnimationOptions(QChart::SeriesAnimations);
@@ -301,6 +304,7 @@ void WaterWindow::createFlourinated()
 
   // Create file selectors specific to this window
 
+  //std::cout << fchart->getDeterminands() << std::endl;
   updateFileSelector(pollutant, fchart->getDeterminands());
   updateFileSelector(location, fchart->getLocations(pollutant->currentText().toStdString()));
 
@@ -308,6 +312,7 @@ void WaterWindow::createFlourinated()
   fchart->loadDataset(model.getData());
   QChart *chart = new QChart();
   fchart->initChart(chart);
+  formatChart(chart);
   std::cout << "chart created" << std::endl;
   QChartView *chartView = new QChartView(chart);
   layout->addWidget(chartView);
@@ -328,6 +333,13 @@ void WaterWindow::createFlourinated()
   
 }
 
+void WaterWindow::formatChart(QChart *chart) {
+  chart->setBackgroundBrush(QBrush(QColor("#e0f7fa")));
+    chart->setTitleBrush(QBrush(QColor("#00796b")));
+    chart->setPlotAreaBackgroundBrush(QBrush(QColor("#fefefe")));
+    chart->setPlotAreaBackgroundVisible(true);
+}
+
 void WaterWindow::createCompliance()
 {
 
@@ -337,11 +349,17 @@ void WaterWindow::createPageBar()
 {
   QToolBar *pageBar = new QToolBar();
   pageBar->addWidget(dashboardButton);
-  pageBar->addSeparator();
+  QWidget *gap2 = new QWidget();
+  gap2 ->setFixedWidth(95);
+  pageBar->addWidget(gap2);
   pageBar->addWidget(overviewButton);
+  pageBar->addSeparator();
   pageBar->addWidget(popsButton);
+  pageBar->addSeparator();
   pageBar->addWidget(litterButton);
+  pageBar->addSeparator();
   pageBar->addWidget(flourinatedButton);
+  pageBar->addSeparator();
   pageBar->addWidget(complianceButton);
 
   addToolBar(Qt::TopToolBarArea, pageBar);
@@ -354,7 +372,7 @@ void WaterWindow::createFileSelectors()
   pollutantOptions << "pollutants";
   pollutant = new QComboBox();
   pollutant->addItems(pollutantOptions);
-
+  
   QStringList locationOptions;
   locationOptions << "locations";
   location = new QComboBox();
@@ -371,7 +389,7 @@ void WaterWindow::updateFileSelector(QComboBox *selector, QStringList options)
 void WaterWindow::createButtons()
 {
   loadButton = new QPushButton("Load");
-  statsButton = new QPushButton("Stats");
+  loadButton->setObjectName("LoadButton");
   dashboardButton = new QPushButton("Dashboard");
   overviewButton = new QPushButton("Overview");
   popsButton = new QPushButton("POPs");
@@ -380,7 +398,6 @@ void WaterWindow::createButtons()
   complianceButton = new QPushButton("Compliance Dashboard");
 
   connect(loadButton, SIGNAL(clicked()), this, SLOT(openCSV()));
-  connect(statsButton, SIGNAL(clicked()), this, SLOT(displayStats()));
   connect(dashboardButton, SIGNAL(clicked()), this, SLOT(createDashboard()));
   connect(overviewButton, SIGNAL(clicked()), this, SLOT(createOverview()));
   connect(popsButton, SIGNAL(clicked()), this, SLOT(createPOPs()));
@@ -398,15 +415,26 @@ void WaterWindow::createToolBar()
   toolBar->addWidget(pollutantLabel);
   toolBar->addWidget(pollutant);
 
+  QWidget *gap = new QWidget();
+  gap ->setFixedWidth(220);
+  toolBar->addWidget(gap);
+
   QLabel *locationLabel = new QLabel("location");
   locationLabel->setAlignment(Qt::AlignVCenter);
   toolBar->addWidget(locationLabel);
   toolBar->addWidget(location);
 
+  QWidget *gap2 = new QWidget();
+  gap2 ->setFixedWidth(160);
+  toolBar->addWidget(gap2);
+
   toolBar->addSeparator();
 
+  QWidget *gap3 = new QWidget();
+  gap3 ->setFixedWidth(160);
+  toolBar->addWidget(gap3);
+
   toolBar->addWidget(loadButton);
-  toolBar->addWidget(statsButton);
 
   addToolBar(Qt::LeftToolBarArea, toolBar);
 }
