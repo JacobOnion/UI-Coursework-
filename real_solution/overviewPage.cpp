@@ -33,23 +33,16 @@ void OverviewPage::showOverviewPageExplanation()
     std::string print_info = "Overview Page Usage\n"
                              "Here you can find the overview of water data, including pollutants, "
                              "compliance, and trends. Use the controls to filter and analyze the data. "
-                             "Search with the search bar to find any pollutant and get more info on it.\n";
+                             "Search with the search bar to find any pollutant and get more info on it.";
     int index = 0;
 
-    for (const auto& name : pullutantNames) {
+    /*for (const auto& name : pullutantNames) {
         print_info += name + ", ";
         index++;
         if(index >10){
           break;
           }
-    }
-
-    // Remove trailing comma and space
-    if (!pullutantNames.empty()) {
-        print_info.pop_back();
-        print_info.pop_back();
-
-    }
+    }*/
 
     // Show the message box
     QMessageBox::information(
@@ -158,17 +151,16 @@ QChartView* OverviewPage::createPollutantTabel(std::string pollutant)
 
     //    pollutantInfo = model->getData().getPollutants(searchTerm.toStdString(),
     //                                            mainWindow->curLocation()->currentText().toStdString());
-    std::vector<std::string> allLocations =  model->getData().getLocations(pollutant);
-    for (const auto& location : allLocations) {
+    //std::vector<std::string> allLocations =  model->getData().getLocations(pollutant);
+    //for (const auto& location : allLocations) {
         //        std::cout << location << std::endl;
-        // Correct usage of push_back
-        auto pollutants = model->getData().getPollutants(pollutant, location);
+        auto pollutants = model->getData().getPollutants(pollutant);
 
         // Add each pair in pollutants to pollutantInfo
         for (const auto& pollutant : pollutants) {
             pollutantInfo.push_back(pollutant);
         }
-    }
+    //}
     // Get the pollutant data based on the search term
 
 
