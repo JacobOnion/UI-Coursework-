@@ -85,6 +85,21 @@ vector<pair<string, double>> WaterDataset::getPollutants(const string &pollutant
   return pollutantInfo;
 }
 
+vector<pair<string, double>> WaterDataset::getPollutants(const string &pollutantName)
+{
+  vector<pair<string, double>> pollutantInfo;
+  for (auto i : data)
+  {
+    if (i.getDeterminand().getLabel() == pollutantName)
+    {
+      string date = i.getSample().getDateTime().substr(0, 10);
+      double value = i.getResult();
+      pollutantInfo.push_back({date, value});
+    }
+  }
+  return pollutantInfo;
+}
+
 vector<string> WaterDataset::getLocations(const string &pollutantName)
 {
   vector<string> locations;
