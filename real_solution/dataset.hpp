@@ -15,6 +15,7 @@ public:
   Water operator[](int index) const { return data.at(index); }
 
   std::vector<std::pair<std::string, double>> getPollutants(const std::string &pollutantName, const std::string &location);
+  std::vector<std::pair<std::string, double>> getPollutants(const std::string &pollutantName);
   std::vector<std::string> getLocations(const std::string &pollutantName);
 
   std::vector<std::string> getLabels();
