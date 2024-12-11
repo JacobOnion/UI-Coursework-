@@ -7,7 +7,7 @@ StatsDialog::StatsDialog(QWidget *parent) : QDialog(parent)
 {
   createWidgets();
   arrangeWidgets();
-  setWindowTitle("Quake Stats");
+  setWindowTitle(tr("Quake Stats"));
 }
 
 // what is this
@@ -28,15 +28,15 @@ void StatsDialog::createWidgets()
   meanMagnitude->setMaxLength(3);
   meanMagnitude->setReadOnly(true);
 
-  closeButton = new QPushButton("Close");
+  closeButton = new QPushButton(tr("Close"));
   connect(closeButton, SIGNAL(clicked()), this, SLOT(close()));
 }
 
 void StatsDialog::arrangeWidgets()
 {
   QFormLayout *form = new QFormLayout();
-  form->addRow("Mean depth (km):", meanDepth);
-  form->addRow("Mean magnitude:", meanMagnitude);
+  form->addRow(tr("Mean depth (km):"), meanDepth);
+  form->addRow(tr("Mean magnitude:"), meanMagnitude);
 
   QVBoxLayout *box = new QVBoxLayout();
   box->addLayout(form);

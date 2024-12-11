@@ -2,14 +2,20 @@
 // fred
 #include <QtWidgets>
 #include "window.hpp"
-#include <QPushButton>
+#include <QApplication>
+#include <QTranslator>
+#include <QLocale>
 
 int main(int argc, char *argv[])
 {
-
   QApplication app(argc, argv);
 
-  app.setStyleSheet("QWidget {"
+  QTranslator translator;
+  if (translator.load(QLocale::system(), "myapp", "_", ":/i18n")) {
+    app.installTranslator(&translator);
+  }
+
+    app.setStyleSheet("QWidget {"
                     "background-color: #89bde8;"
                     "font-size: 20px;"
                     "font: arial;"
@@ -37,6 +43,7 @@ int main(int argc, char *argv[])
                     "font-weight: 600;"
                     "}"
                     );
+
 
   WaterWindow window;
   window.resize(1080, 800);
